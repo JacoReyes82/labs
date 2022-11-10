@@ -1,0 +1,127 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@329;400&display=swap');
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1A1A1A;
+}
+/* Logo */
+.logoSpotify {
+    width: 160px;
+    height: 50px;
+}
+/* Menu */
+.navbar {
+    display: flex;
+    grid-gap: 30px;
+    padding: 0px 90px;
+}
+.navbar li{
+    list-style: none;
+    font-size: 20px;
+}
+header {
+    background-image: url("../images/landing.jpg");
+    width: 100vw;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 20px;
+    padding: 30px;    
+    background-color:#fff;    
+    z-index: 1;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+.img-text {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: xx-large;
+}
+.img-text h1 {
+    margin-bottom: 0;
+}
+.what-spotify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.what-spotify  h2 {
+    margin-top: 60px;
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 8px;
+}
+.png-img img{
+    width: 100px;
+}
+
+.png-img {
+    display: flex;
+    gap: 100px;
+}
+.png-img div {
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+}
+.png-img h3 {
+    color: #00B172;
+}
+.green-kanye {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00B172;
+    margin: 0px 30px;
+    color: white;
+    position: relative;
+    padding: 80px;
+}
+.logo-kanye {
+    width: 100px;
+    position: absolute;
+    left: 45%;
+    bottom: 45%;
+}
+.Kanye {
+    width: 250px;
+}
+.title-text-kanye {
+    display: inline;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+.text-kanye div {
+    width: 250px;
+}
+.text-kanye-left {
+    margin-top: 60px;
+}

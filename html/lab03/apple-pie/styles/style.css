@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;1,300&display=swap');
 
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
-
 body, html,h1 {
     height: 100%;
     margin: 0px;
 }
-
 .header {
     background-image: url("../images/apple-pie.jpg");
     background-repeat: no-repeat;
@@ -16,7 +14,6 @@ body, html,h1 {
     background-size: cover;
     height: 100%;
 }
-
 h1 {
     display: flex;
     font-size: 8rem;
@@ -25,29 +22,25 @@ h1 {
     color: white;
     flex-direction: column;
     position: relative;
-    font-weight: bold;
+    font-weight: 300;
 }
-
 #principal p {
     margin: 5% 10% 5% 10%;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight:100;
     text-align: justify;
 }
-
 .hr-line {
     border-top: 2px solid #bbb;
     margin: 5% 10% 5% 10%;
 }
-
 .time-recipe{
     position: relative;
     text-align: center;
 } 
-
 .section-title-recipe {
     font-size: 1.7rem;
-    font-weight: bolder;
+    font-weight: 300;
     margin: 5% 10% 2% 10%;
 }
 
@@ -56,23 +49,19 @@ h1 {
     padding-bottom: 5%;
     text-align: justify;
 }
-
 .section-list-recipe li {
     font-size: 1.5rem;
     font-weight: 200;
 }
-
 .section-final-recipe{
     margin: 2% 10% 2% 10%;
     padding-bottom: 5%;
     text-align: justify;
 }
-
 .section-final-recipe li {
     font-size: 1.5rem;
     font-weight: 200;
 }
-
 ul {
     list-style-type: none;
     margin-left: none;
