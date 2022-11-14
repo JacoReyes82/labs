@@ -29,12 +29,15 @@ body, html {
     list-style: none;
     font-size: 20px;
 }
-header {
+header  {
     background-image: url("../images/landing.jpg");
     width: 100vw;
     height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.js-color {
+    background: #00B172;
 }
 nav {
     position: fixed;

@@ -9,7 +9,7 @@
   </head>
     <body>
       <header>  
-        <nav>
+        <nav class="js-example">
             <img class="logoSpotify" src="./images/spotify-logo.png" alt="spotify-icon"/>
           <ul class="navbar">
             <li><a href="#">Premium</a></li>
@@ -63,5 +63,18 @@
           </div>
           <img class="Kanye" src="./images/spotify-app.jpg" alt="spotify-app">
         </section>
+        <script>
+          const changeNavColor = document.querySelector('.js-example');
+
+          window.onscroll = function () {
+            const scroll = window.pageYOffset;
+
+            if (scroll > 600) {
+              changeNavColor.classList.add('js-color');
+            } else {
+              changeNavColor.classList.remove('js-color');
+            }
+          }  
+        </script>
   </body>
 </html>
