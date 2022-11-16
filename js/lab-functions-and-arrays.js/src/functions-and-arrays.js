@@ -32,6 +32,7 @@ function sumNumbers(array) {
   if( array.length === 0 ) return 0
     return array.reduce((previousValue, currentValue) => previousValue + currentValue) 
 }
+console.log(sumNumbers(numbers));
 
 
 
