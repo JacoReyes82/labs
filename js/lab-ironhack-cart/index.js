@@ -2,7 +2,7 @@
 
 function updateSubtotal(product) {
   const price = product.querySelector('.price span').innerHTML
-  const quantity = product.querySelector('[min]').value// get input and the value of the input
+  const quantity = product.querySelector('[min]').value
 
   product.querySelector('.subtotal span').innerHTML = price * quantity
   return price * quantity
@@ -35,8 +35,8 @@ function removeProduct(button) {
 // ITERATION 5
 
 function createProduct() {
-  const inputs = document.querySelectorAll('.create-product input')// [0] = Product name / [1] = costPerUnit 
-  const tBody = document.querySelector('tbody') // get the table body to insert a child
+  const inputs = document.querySelectorAll('.create-product input')
+  const tBody = document.querySelector('tbody') 
   const newProduct = document.createElement('tr')
   newProduct.className = 'product'
   newProduct.innerHTML = `
